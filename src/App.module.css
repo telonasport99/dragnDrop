@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.board{
+    min-width: 300px;
+    max-height: 400px;
+    border: 5px solid lightgray;
+    padding: 20px 10px;
+    border-radius:12px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.item{
+    width: 100%;
+    border:2px solid lightcoral;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    cursor: grab;
+    background-color: lightgray;
+}
