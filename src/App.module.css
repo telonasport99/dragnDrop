@@ -35,3 +35,30 @@
     cursor: grab;
     background-color: lightgray;
 }
+.item, .board {
+    /* Общий стиль для плавного перехода */
+    transition: 0.3s ease;
+}
+
+
+
+.item:hover {
+    /* Изменение фона при наведении на элемент */
+    background-color: #f0f0f0;
+}
+
+.item:active {
+    /* Изменение тени при начале перетаскивания */
+    box-shadow: 0 2px 3px rgb(128, 128, 128);
+}
+
+.item:focus {
+    /* Контур вокруг элемента при фокусировке */
+    outline: 2px solid #4d90fe;
+}
+
+.board:hover {
+    /* Изменение фона доски при наведении */
+    background-color: #e0e0e0;
+}
+

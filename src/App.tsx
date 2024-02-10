@@ -14,8 +14,8 @@ interface Board {
 
 const App = () => {
     const [boards, setBoards] = useState<Board[]>([
-        { id: 1, title: 'Users', items: [{ id: 1, title: 'vadim' }, { id: 2, title: 'katya' }] },
-        { id: 2, title: 'Mentors', items: [{ id: 3, title: 'vadim' }, { id: 4, title: 'katya' }] }
+        { id: 1, title: 'Users', items: [{ id: 1, title: 'Vadim' }, { id: 2, title: 'Katy' }] },
+        { id: 2, title: 'Mentors', items: [{ id: 3, title: 'Andre' }, { id: 4, title: 'Grisha' },{ id: 5, title: 'Valera' }] }
     ]);
     const [currentBoard, setCurrentBoard] = useState<Board | null>(null);
     const [currentItem, setCurrentItem] = useState<Item | null>(null);
